@@ -11,16 +11,112 @@
 
 </head>
 <body>
-    <row>
-	<column cols="4"></column>
-	<column cols="4"><h1 class="title">Hello, Vanderson!</h1></column>
-	<column cols="4"></column>
-    </row>	    
-	
-	<h2 class >Exercício de Frameworks - 06/09/2017</h2>
+   	<div class="row">
+	<div class="col col-1"></div>
+	<div class="col col-10">
+	<nav class="tabs" data-component="tabs">
+		<ul>
+			<li class="active"><a href="#tab1">Home</a></li>
+			<li><a href="#tab2">Professor</a></li>
+			<li><a href="#tab3">Grupo</a></li>
+		</ul>
+	</nav>
+	</div>
+	<div class="col col-1"></div>
+	</div>
+	<div id="tab1">
+		<div class="row">
+		<div class="col col-1"></div>
+		<div class="col col-10">	
+					
+			
+	<h1>Hello, Vanderson!</h1>
+	<h2>Exercício de Frameworks - 06/09/2017</h2>
 	<h3>Componentes Framework Kube</h3>
-	
-	
+		
+	<table class="bordered">
+        <tr>    
+                <td align="center" class="format-cel"><strong>Processador</strong></td>
+                <td align="center" class="format-cel"><strong>Velocidade<br>(MHz)</strong></td>
+                <td align="center" class="format-cel"><strong> Preço de<br>Lançamento*</strong></td>
+                <td align="center" class="format-cel"><strong> Data de<br>Lançamento</strong></td>
+                <td align="center" class="format-cel"><strong> Preços em<br>Agosto/2000*</strong></td>
+                <td align="center" class="format-cel"><strong> Queda<br>%</strong></td>
+            </tr>
+            <tr>
+                <td>AMD K-6</td>
+                <td>200</td>
+                <td>315</td>
+                <td>Abril/97</td>
+                <td>107</td>
+                <td>66</td>
+            </tr>
+            <tr>
+                <td>AMD K-6</td>
+                <td>233</td>
+                <td>437</td>
+                <td>Maio/97</td>
+                <td>284</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Cyrix 6x86</td>
+                <td>200</td>
+                <td>240</td>
+                <td>Maio/97</td>
+                <td>188</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Cyrix 6x86</td>
+                <td>233</td>
+                <td>320</td>
+                <td>Maio/97</td>
+                <td>290</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Intel<br>Pentiun II</td>
+                <td>233</td>
+                <td>636</td>
+                <td>Maio/97</td>
+                <td>530</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Intel<br>Pentiun II</td>
+                <td>266</td>
+                <td>775</td>
+                <td>Maio/97</td>
+                <td>699</td>
+                <td>10</td>
+            </tr>
+        </table>
+		
+				
+		</div>
+		<div class="col col-1"></div>
+		</div>
+		<div id="tab2">
+			<div class="row">
+				<div class ="col col-1"></div>
+				<div class ="col col-2">
+				<img src="img/vanderson.jpg" width="200"></div>
+				<div class ="col col-8">
+				<h1> Professor Vanderson</h1>
+				<p> Professor Especialista na FIT-Faculdade Impacta de Tecnologia São Paulo e Região, BrasilTecnologia da informação e serviços<br>
+					Atual: Faculdade Impacta de Tecnologia - FIT<br>
+					Anterior : Wolters Kluwer - Prosoft, UNIESP - Santo André, Hospital Beneficência Portuguesa de Sto. André<br>
+					Formação acadêmica: Faculdade Impacta de Tecnologia<br>
+				</p></div>
+				<div class ="col col-1"></div>
+			</div>
+		</div>
+				
+				
+				
+			
+		</div>
 
     <!-- Kube JS + jQuery are used for some functionality, but are not required for the basic setup -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
